@@ -1,14 +1,22 @@
-# Project Name
+# YWEmay React Native Trade Utils
 
 ## Description
-This is a brief description of the project.
+Collection of utilities and components used to build react-native trade system.
 
 ## Installation
 1. Clone this repository to your local machine.
 2. Navigate to the project directory in your terminal.
 
-## Usage
-To run the project, follow these steps:
-
 ### Installing Dependencies
 To install the required packages using Yarn, run:
+
+```bash
+yarn install
+```
+
+## Build
+To build the project, follow these steps:
+
+```bash
+yarn build
+```
