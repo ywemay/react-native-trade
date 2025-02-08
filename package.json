@@ -10,17 +10,24 @@
   "license": "ISC",
   "description": "",
   "devDependencies": {
+    "@tanstack/react-query": "^5.66.0",
     "@types/react": "^18.3.18",
-    "@types/react-native": "^0.72.8",
+    "@types/react-native": "^0.73.0",
+    "expo-router": "^4.0.17",
     "typescript": "^5.7.3"
   },
   "packageManager": "yarn@1.22.22+sha512.a6b2f7906b721bba3d67d4aff083df04dad64c399707841b7acf00f6b133b7ac24255f2652fa22ae3534329dc6180534e98d17432037ff6fd140556e2bb3137e",
   "dependencies": {
+    "@rneui/base": "^4.0.0-rc.8",
+    "@rneui/themed": "^4.0.0-rc.8",
     "@supabase/supabase-js": "^2.48.1",
+    "axios": "^1.7.9",
     "expo-secure-store": "^14.0.1",
+    "react-native-safe-area-context": "^5.2.0",
     "react-native-session-storage": "^1.3.2"
   },
   "peerDependencies": {
-    "@tanstack/react-query": "^5.66.0"
+    "@tanstack/react-query": "^5.66.0",
+    "expo-router": "^4.0.17"
   }
 }

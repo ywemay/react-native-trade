@@ -1,6 +1,7 @@
 import React from 'react';
-import { TextInput as RNTextInput } from 'react-native';
+import { TextInput as RNTextInput, TextInputProps } from 'react-native';
 
-export function TextInput({ style, ...props }: React.ComponentProps<typeof RNTextInput>) {
-  return <RNTextInput {...props} />;
+export function TextInput({ style, children, ...props }: TextInputProps ) {
+  return <RNTextInput style={[style]} {...props} />;
 }
+  

@@ -11,7 +11,7 @@ interface AuthContextProps {
 
 const AuthContext = createContext({} as AuthContextProps);
 
-export default function AuthProvider({ children }:PropsWithChildren) {
+export function AuthProvider({ children }:PropsWithChildren) {
 
   const [ session, setSession ] = useState<Session | null>(null);
   const [ profile, setProfile ] = useState(null);
